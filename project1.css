@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header#En-tete {
+  background-color:red;
+  height: 50px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+aside#Menu1, aside#Menu2 {
+    top: 50px;
+    width: 80px;
+    position: absolute;
+}
+aside#Menu1 {
+    background-color: green;
+    left: 0;
+}
+
+aside#Menu2 {
+ background-color: yellow;
+ right:0;
+}
+
+section#Contenu {
+background-color: blue;
+margin-top: 60px;
+margin-left: 90px;
+margin-right: 90px;
+}
